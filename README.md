@@ -1,2 +1,11 @@
 # billboardTop100Api
-Created with CodeSandbox
+GET '/{rank}' will show you 1~{rank}ed songs and artists
+
+dependencies - nodeJS
+``` json
+{
+  "express": "^4.17.1",
+  "jsdom": "^16.4.0",
+  "node-fetch": "^2.6.0"
+}
+```
